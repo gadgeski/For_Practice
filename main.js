@@ -3,7 +3,7 @@ const specialties = ["ちなこの設問は","めっちゃ迷ってる","どな�
 const greetings = ["トマトマゼール？","パスタクエール？","バイトコレール？"];
 const button = document.querySelector("#button");
 button.addEventListener("click", function () {
-    const name = document.querySelector("name").value;
+    const name = document.querySelector('input[name="name"]').value;
     const index1 = Math.floor(Math.random() * interests.length);
     const index2 = Math.floor(Math.random() * specialties.length);
     const index3 = Math.floor(Math.random() * greetings.length);
