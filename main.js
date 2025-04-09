@@ -10,8 +10,10 @@ button.addEventListener("click", function () {
     const interest = interests[index1];
     const specialty = specialties[index2];
     const greeting = greetings[index3];
-    const message = `こんちくわ ${name}さん。
-    最近ハマっているのは${interest}で、ぶっちゃけ${specialty}なんだけど${greeting}`;
+    const message = `
+    こんちくわ ${name}さん。
+    最近ハマっているのは${interest}で、
+    ぶっちゃけ${specialty}なんだけど${greeting}`;
     const output = document.querySelector("#output");
     output.textContent = message;
 });
