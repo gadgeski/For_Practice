@@ -16,7 +16,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: #fff;
-    background-color: #3ADF00;
+    background-color: #66CDAA;
     border-radius: 10px;
     padding: 10px;
 }
@@ -25,7 +25,7 @@ body {
     content: "";
     position: absolute;
     bottom: -20px;
-    border-top: 20px solid #3ADF00;
+    border-top: 20px solid #66CDAA;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
