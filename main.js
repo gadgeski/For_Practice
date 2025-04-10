@@ -1,5 +1,5 @@
 const interests = ["ホヨバゲー","ガジェット","プログラミング"];
-const specialties = ["ちなこの設問は","めっちゃ迷ってる","どないすんねん？"];
+const specialties = ["ちな言語選び","めっちゃ迷ってる","どないすんねん？"];
 const greetings = ["トマトマゼール？","パスタクエール？","バイトコレール？"];
 const button = document.querySelector("#button");
 button.addEventListener("click", function () {
