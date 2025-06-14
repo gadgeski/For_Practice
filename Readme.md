@@ -8,7 +8,7 @@ Javascript 習熟用
 
 # 使用技術
 
-Javascript
+JavaScript/CSS/HTML
 
 # 更新履歴
 
